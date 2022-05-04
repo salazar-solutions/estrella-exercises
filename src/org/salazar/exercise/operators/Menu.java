@@ -6,9 +6,10 @@ public class Menu {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String option = "";
+		String option = "y";
 
-		while (!option.equals("exit")) {
+		while (!option.equals("n")) {
+
 			printOptions();
 			option = sc.nextLine();
 
@@ -19,20 +20,20 @@ public class Menu {
 				break;
 
 			default:
-				if (!option.equals("exit")) {
-					System.out.println("Invalid Option");
-				}
+				System.out.println("Invalid Option");
 				break;
 			}
-
-			hideScreen();
+			System.out.println("Continue [y/n]");
+			option = sc.nextLine();
+			if (!option.equals("n")) {
+				hideScreen();
+			}
 		}
 		System.out.println("Thank you for using this Menu");
 	}
 
 	public static void printOptions() {
 		System.out.println("Please select one of the option below");
-		System.out.println("[exit]: Close the program");
 		System.out.println("[0]: Print Hello World with your name");
 	}
 
@@ -40,10 +41,10 @@ public class Menu {
 	 * DO NOT NEED TO UNDERSTAND, IT JUST CLEAN THE CONSOLE
 	 */
 	private static void hideScreen() {
-		for (int i = 0; i < 50; i++) {
-			System.out.println();;
+		for (int i = 0; i < 30; i++) {
+			System.out.println();
+			;
 		}
 
 	}
-
 }
