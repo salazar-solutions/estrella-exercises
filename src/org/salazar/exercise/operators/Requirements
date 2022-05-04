@@ -3,3 +3,5 @@ let's create a menu
 •	each exercise should be in a new class which will be instantiated when its option is chosen and its method with the exercise executed
 •	The menu should continue asking for option until the word exit is selected
 •	Everything the exercise requires should be created inside the exercise class or method, example a new scanner
+•	Do each exercise of the next link until the 35 in separaed class to be called by the menu
+o	https://www.w3resource.com/java-exercises/basic/index.php
