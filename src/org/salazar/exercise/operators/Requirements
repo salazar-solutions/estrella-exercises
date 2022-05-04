@@ -1,0 +1,5 @@
+let's create a menu
+•	the program should display all the options it has an then execute the option the user chose
+•	each exercise should be in a new class which will be instantiated when its option is chosen and its method with the exercise executed
+•	The menu should continue asking for option until the word exit is selected
+•	Everything the exercise requires should be created inside the exercise class or method, example a new scanner

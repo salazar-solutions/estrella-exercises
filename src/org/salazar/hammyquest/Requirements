@@ -1,0 +1,55 @@
+Phase 1
+
+Hammy should have a 
+	name
+
+Game
+	should ask you the name of the hammy
+	should decide if showing a obstacle (80%) or a reward(20%) randomly
+	after each step it should ask you to continue if not the game is over otherwise we request another step
+	a sad message should be display when it is an obstacle
+	a happy message should be display when it is an reward
+	
+	
+---------------------------------------------------------------------------------------------------------------	
+Phase 2
+
+Hammy should have a 
+	name
+
+Game
+	should ask you the name of the hammy
+	should decide if showing a obstacle (80%) or a reward(20%) randomly
+	after each step it should ask you to continue if not the game is over otherwise we request another step
+	There should be at least 3 diferent obstacules
+	There should be at least 3 diferent rewards
+	
+Obstacule
+	Obstacule will print the name of the hammy and make it sad
+	
+Reward
+	The reward will print  the name of the hammy and a cute action
+
+---------------------------------------------------------------------------------------------------------------
+Phase 3
+
+Hammy should have a 
+	name
+	happiness
+
+Game
+	should ask you the name of the hammy 
+	Hammy should start with 100 points in happiness
+	should decide if showing a obstacle (80%) or a reward(20%) randomly
+	after each step it should check if happiness is less than 0 and the game is over otherwise continue showing current happiness
+	after each step it should ask you to continue if not the game is over otherwise we request another step
+	There should be at least 3 diferent obstacules
+	There should be at least 3 diferent rewards
+	
+Obstacule
+	Obstacule will print the name of the hammy and make it sad
+	Each obstacle should decrement by some point the happines
+	
+Reward
+	The reward should said the name of the hammy and a cute action
+	Each obstacle should increment by some point the happines
