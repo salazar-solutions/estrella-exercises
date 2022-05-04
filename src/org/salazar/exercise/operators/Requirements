@@ -4,4 +4,9 @@ let's create a menu
 •	The menu should continue asking for option until the word exit is selected
 •	Everything the exercise requires should be created inside the exercise class or method, example a new scanner
 •	Do each exercise of the next link until the 35 in separaed class to be called by the menu
-o	https://www.w3resource.com/java-exercises/basic/index.php
+		https://www.w3resource.com/java-exercises/basic/index.php
+•	Have fun and try to add extra stuff
+•	Remember to document each line of code explaining what is happening [//]
+•	Use Alt+Shift+J over the method that has the solution to the problem to add the problem description
+
+
